@@ -1,0 +1,43 @@
+.content-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 70px;
+    font-weight: 500;
+    font-family: Arial, sans-serif;
+}
+
+.content-section h1 {
+    font-size: 38px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.box {
+    display: flex;
+    align-items: center; 
+    background-color: #d3f1f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.box img {
+    width: 100px;
+    margin-left: 15px;
+}
+
+.text-box button{
+    width: 70px;
+    height: 38px;
+    border-radius: 32px;
+    border: none;
+}
+
+.text-box button:hover {
+    background-color: aquamarine;
+}
